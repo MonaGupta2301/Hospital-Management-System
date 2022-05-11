@@ -4,7 +4,6 @@ create table admin
 	 Password varchar(10)
 );
 insert into admin values('admin','admin');
-
 insert into patient(First_Name,Last_Name,Email,age,DOB,Phone,Gender,Address,Joining_Time,Joining_Date)  values('mina','Pateriya','mina@gmail.com',21,'20 August,2000',18765,'Female','Amravati','10:15:781','01/05/2021');                          
 insert into patient(First_Name,Last_Name,Email,age,DOB,Phone,Gender,Address,Joining_Time,Joining_Date)  values('Seta','Asoriya','Seta@gmail.com',20,'21 April,2001',28765,'Female','Amravati','11:25:451','01/05/2021');                          
 insert into patient(First_Name,Last_Name,Email,age,DOB,Phone,Gender,Address,Joining_Time,Joining_Date)  values('Raj','Shriwas','Raj@gmail.com',22,'22 July,1999',38765,'Male','Amravati','15:35:321','02/05/2021');                          
